@@ -24,3 +24,5 @@ CER: 0.0378
 WER: 0.1711
 
 To use this project, simply unzip the ocr-and-ser zip file. And then download the MMOCR config folder from https://drive.google.com/drive/folders/15n6Mifgv83npPgg3bYwo8szx5tZTO10x?usp=sharing. Look for a file called mmocr.zip, and then unzip them into the same root directory. After that don't forget to install the requirements listed in requirements.txt.
+
+This project uses DBnet Base for detection model, SVTR Base for Recognition Model, and LMV3 Base for SER Model. For DBnet and SVTR training please refer to handwriting_training.ipynb. No file is required, everything is dynamic and you can just run all to get the model. Same goes for SER Model, please refer to layoutlmv3_training.ipynb, everything is also dynamic in there.
